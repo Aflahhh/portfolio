@@ -32,7 +32,7 @@ function Box({ src, year, subtitle, title, desc, tech }) {
 export default function Experience() {
   const experience = [
     {
-      src: "/src/assets/pdf/SERTIFIKAT MSIB AFLAH NABIL KRISTIAWAN.pdf",
+      src: "/pdf/SERTIFIKAT MSIB AFLAH NABIL KRISTIAWAN.pdf",
       year: "2023 - 2024",
       title: "Studi Independent - Infinite Learning",
       subtitle: "Web Development",
@@ -40,7 +40,7 @@ export default function Experience() {
       tech: ["HTML", "CSS", "Javascript", "React", "MySQL"],
     },
     {
-      src: "/src/assets/pdf/SERTIFIKAT INTERN AFLAH NABIL KRISTIAWAN.pdf",
+      src: "/pdf/SERTIFIKAT INTERN AFLAH NABIL KRISTIAWAN.pdf",
       year: "2024 - 2025",
       title: "Intern - PT Pura Barutama Engineering Division",
       subtitle: "Full-stack Developer",
