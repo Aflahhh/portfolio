@@ -34,7 +34,7 @@ export default function Projects() {
   const experience = [
     {
       src: "https://aflahhh.github.io/webprofile_aflah/",
-      img: "/src/assets/image-projects/web-profile-img.png",
+      img: "/image-projects/web-profile-img.png",
       wImg: "500",
       hImg: "28",
       title: "Personal Website",
@@ -43,7 +43,7 @@ export default function Projects() {
     },
     {
       src: "https://expedition-6t3wf9ibh-aflahnabils-projects.vercel.app/",
-      img: "/src/assets/image-projects/expedition-img.png",
+      img: "/image-projects/expedition-img.png",
       title: "Expedition Landing Page",
       wImg: "575",
       hImg: "28",
@@ -52,7 +52,7 @@ export default function Projects() {
     },
     {
       src: "https://github.com/Aflahhh/e-surat",
-      img: "/src/assets/image-projects/e-surat.png",
+      img: "/image-projects/e-surat.png",
       title: "E-SURAT",
       wImg: "700",
       hImg: "5",
