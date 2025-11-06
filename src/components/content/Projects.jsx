@@ -9,7 +9,7 @@ function Box({ src, img, wImg, hImg, title, desc, tech }) {
             <img src={img} width={wImg} height={hImg} alt="" className="border border-transparent group-hover:border-gray-500 rounded-xs" />
           </div>
           <div className="box-content flex flex-col gap-3">
-            <div className="box-title text-shadow-md flex items-center text-justify text-white">
+            <div className="box-title text-shadow-md flex items-center text-justify text-slate-200">
               {title}{" "}
               <span className="ml-1">
                 <GoArrowUpRight />

@@ -15,7 +15,7 @@ export default function About() {
         </p>
         <p>
           {" "}
-          Previously, I had the opportunity to work as a full-stack developer intern at the <span className=" text-gray-200">PT Pura Barutama Engineering Division</span>, where I contributed to the
+          Previously, I had the opportunity to work as a full-stack developer intern at the <span className=" text-slate-200">PT Pura Barutama Engineering Division</span>, where I contributed to the
           development of web applications that supported internal workflows. This experience gave me a solid foundation in frontend and backend development, as well as practical
           experience in a real-world project environment.{" "}
         </p>

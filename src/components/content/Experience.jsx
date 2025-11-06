@@ -7,7 +7,7 @@ function Box({ src, year, subtitle, title, desc, tech }) {
         <div className="flex flex-wrap gap-3">
           <div className="box-year text-gray-400 font-bold text-sm">{year}</div>
           <div className="box-content flex flex-col gap-3">
-            <div className="box-title text-shadow-md flex items-center text-white">
+            <div className="box-title text-shadow-md flex items-center text-slate-200">
               {title}{" "}
               <span className="ml-1">
                 <GoArrowUpRight />

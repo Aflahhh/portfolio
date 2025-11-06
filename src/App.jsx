@@ -30,11 +30,11 @@ export default function App() {
               <About />
             </section>
             <section id="experience">
-              <h2 className="text-gray-50 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Experience</h2>
+              <h2 className="text-slate-200 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Experience</h2>
               <Experience />
             </section>
             <section id="projects">
-              <h2 className="text-gray-50 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Projects</h2>
+              <h2 className="text-slate-200 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Projects</h2>
               <Projects />
             </section>
           </div>
