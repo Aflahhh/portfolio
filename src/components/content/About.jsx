@@ -3,7 +3,7 @@ import { FaLaravel } from "react-icons/fa";
 export default function About() {
   return (
     <>
-      <div className="about flex flex-col px-5 gap-5 text-gray-400 text-justify" id="">
+      <div className="about flex flex-col lg:px-5 gap-5 text-gray-400 lg:text-justify" id="">
         <p>
           I'm a junior web developer striving to build clean, efficient, and user-friendly web applications. My focus is on backend and frontend development using {" "}
           <span className="text-[#f22b02]">

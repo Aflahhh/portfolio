@@ -2,14 +2,14 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Box({ src, img, wImg, hImg, title, desc, tech }) {
   return (
-    <div className="box group p-5 hover:bg-slate-800/50 border-white rounded-sm cursor-pointer">
+    <div className="box group lg:p-5 hover:bg-slate-800/50 border-white rounded-sm cursor-pointer">
       <a href={src} target="_blank">
         <div className="flex gap-5">
           <div className="box-image ">
             <img src={img} width={wImg} height={hImg} alt="" className="border border-transparent group-hover:border-gray-500 rounded-xs" />
           </div>
           <div className="box-content flex flex-col gap-3">
-            <div className="box-title text-shadow-md flex items-center text-justify">
+            <div className="box-title text-shadow-md flex items-center text-justify text-white">
               {title}{" "}
               <span className="ml-1">
                 <GoArrowUpRight />

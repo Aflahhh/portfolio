@@ -1,32 +1,46 @@
 import Sidebar from "./components/Sidebar";
-import Content from "./components/Content";
 import { useActiveSection } from "./hooks/useActiveSection";
+import Experience from "./components/content/Experience";
+import Projects from "./components/content/Projects";
+import About from "./components/content/About";
+import Credits from "./components/content/Credits";
 
 export default function App() {
   const activeId = useActiveSection(["about", "experience", "projects"]);
 
   return (
-    <div className="relative bg-[#0f172a] min-h-screen flex py-20 px-15 overflow-hidden">
+    <div className="relative bg-[#0f172a] min-h-screen overflow-hidden px-6 py-12 md:px-12 md:py-16 lg:py-20 ">
       {/* highlight fixed biar nggak ikut scroll */}
       <div className="fixed inset-0 pointer-events-none">
-        {/* highlight kiri atas */}
         <div className="absolute bottom-10 left-1 w-[15rem] h-50 rounded-full bg-[#0f1c3b] blur-3xl"></div>
-        {/* highlight kanan bawah */}
         <div className="absolute top-0.5 right-0.5 w-[38rem] h-[28rem] rounded-full bg-[#0f1c3b] blur-3xl"></div>
       </div>
 
       {/* konten utama */}
-      <div className="relative z-10 flex flex-col md:flex-row w-full">
-        <aside className="w-1/3 lg:w-1/4 p-8 fixed h-screen">
+      <div className="relative lg:flex lg:gap-12">
+        {/* Sidebar kiri */}
+        <aside className="w-full lg:w-1/3 lg:fixed p-1 lg:p-0 lg:ml-18 lg:h-screen ">
           <Sidebar activeId={activeId} />
         </aside>
 
-        <main className="ml-[33%] lg:ml-[45%] w-2/3 lg:w-3/4 p-8">
-          <section id="about" className="h-screen">
-            <Content />
+        {/* Konten kanan */}
+        <main className="w-full lg:ml-[43%] lg:w-2/3 mb-1 ">
+          <div className="flex flex-col gap-10 lg:gap-52">
+            <section id="about">
+              <About />
+            </section>
+            <section id="experience">
+              <h2 className="text-gray-50 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Experience</h2>
+              <Experience />
+            </section>
+            <section id="projects">
+              <h2 className="text-gray-50 text-xl font-bold mb-7 lg:mb-2 lg:ml-2">Projects</h2>
+              <Projects />
+            </section>
+          </div>
+          <section id="">
+            <Credits />
           </section>
-          <section id="experience" className="h-screen"></section>
-          <section id="projects" className="h-screen"></section>
         </main>
       </div>
     </div>

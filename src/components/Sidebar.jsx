@@ -8,16 +8,16 @@ export default function Sidebar({ activeId }) {
   ];
 
   return (
-    <div className="sidebar text-white w-xl">
-      <div className="profile flex flex-col gap-3 mb-20">
-        <h1 className="font-bold text-4xl text-[#ced8ee]">Aflah Nabil Kristiawan</h1>
+    <div className="sidebar text-white">
+      <div className="profile flex flex-col gap-3 mb-6 lg:mb-20">
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-6xl lg:text-4xl text-slate-200">Aflah Nabil Kristiawan</h1>
         <p className="text-xl text-[#d7dee6]">Junior Web Development</p>
         <p className="w-xs text-gray-400">
           I build accessible, pixel-perfect digital experiences for the web.
         </p>
       </div>
 
-      <div className="menu flex flex-col gap-5 mb-20">
+      <div className="menu hidden flex-col gap-5 mb-20 lg:flex">
         {menus.map((menu) => (
           <a
             key={menu.id}
@@ -41,7 +41,7 @@ export default function Sidebar({ activeId }) {
         ))}
       </div>
 
-      <div className="contact flex gap-3">
+      <div className="contact flex gap-3 mb-16">
         <a
           href="https://www.instagram.com/aflahnabil__/"
           target="_blank"

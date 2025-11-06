@@ -2,12 +2,12 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Box({ src, year, subtitle, title, desc, tech }) {
   return (
-    <div className="box p-5 hover:bg-slate-800/50 border-white rounded-sm cursor-pointer">
+    <div className="box lg:p-5 hover:bg-slate-800/50 border-white rounded-sm cursor-pointer">
       <a href={src} target="_blank">
         <div className="flex flex-wrap gap-3">
           <div className="box-year text-gray-400 font-bold text-sm">{year}</div>
           <div className="box-content flex flex-col gap-3">
-            <div className="box-title text-shadow-md flex items-center">
+            <div className="box-title text-shadow-md flex items-center text-white">
               {title}{" "}
               <span className="ml-1">
                 <GoArrowUpRight />
