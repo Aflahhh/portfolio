@@ -42,7 +42,7 @@ export default function Projects() {
       tech: ["HTML", "CSS", "Javascript"],
     },
     {
-      src: "https://expedition-6t3wf9ibh-aflahnabils-projects.vercel.app/",
+      src: "https://expedition-one.vercel.app/",
       img: "/image-projects/expedition-img.png",
       title: "Expedition Landing Page",
       wImg: "575",
